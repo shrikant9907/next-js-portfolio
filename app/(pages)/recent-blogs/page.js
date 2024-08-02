@@ -5,7 +5,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="text-center h-svh flex justify-center items-center flex-col">
+      <section className="text-center py-10 min-h-screen">
         <img className="w-[200px] mb-8 mx-auto rounded-full border-4 border-blue-500" src="https://shrikant-yadav.vercel.app/assets/images/shrikant-yadav-profile-narmadapuram-pic.png" alt="Profile Pic"></img>
         <p className="text-2xl mb-2">Hi There</p>
         <p className="text-4xl mb-4"><storng className="text-red-600 font-bold">Shrikant Yadav</storng></p>
@@ -30,7 +30,7 @@ export default function Home() {
             Youtuber
           </span>
         </div>
-        <p className="max-w-2xl mx-auto mb-4 text-gray-500">Passionate about creating engaging content and building robust web solutions using React JS, Next JS, JavaScript, TypeScript, CSS, and HTML..</p>
+        <p className="max-w-2xl mx-auto mb-4">Passionate about creating engaging content and building robust web solutions using React JS, Next JS, JavaScript, TypeScript, CSS, and HTML..</p>
         <div className="flex justify-center items-center mb-4 gap-4">
           <Link href={"#"} className="text-2xl">
             <PiLinkedinLogoLight />
